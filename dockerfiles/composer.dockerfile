@@ -1,9 +1,6 @@
 FROM composer:latest
 
-ARG UID=1000
-ARG GID=1000
-
-RUN addgroup -g ${GID} laravel && adduser -G laravel -u ${UID} -g laravel -s /bin/sh -D laravel
+RUN addgroup -g 1000 laravel && adduser -G laravel -g laravel -s /bin/sh -D laravel
 
 USER laravel
 
