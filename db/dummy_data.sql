@@ -18,15 +18,15 @@ INSERT INTO categories (id, name, description) VALUES
 (5, 'Creatina', 'Suplementos de creatina para fuerza');
 
 -- 3. SUPLEMENTOS
-INSERT INTO supplements (id, name, description, laboratory, images, price, stock, flavour, expiration_date, ingredients, created_at, updated_at) VALUES
-(1, 'Whey Protein Gold Standard', 'Proteína de suero de alta calidad con aminoácidos esenciales', 'Optimum Nutrition', '["whey_gold_1.jpg", "whey_gold_2.jpg"]', 89900, 25, 'Chocolate', '2025-12-31', 'Aislado de proteína de suero, saborizantes naturales, stevia', '2024-01-10 08:00:00', '2024-01-10 08:00:00'),
-(2, 'Multivitamínico Complete', 'Complejo vitamínico completo con 26 nutrientes esenciales', 'Nature Made', '["multi_complete_1.jpg"]', 45000, 50, 'Sin sabor', '2026-06-30', 'Vitamina A, C, D, E, complejo B, zinc, magnesio, hierro', '2024-01-10 08:30:00', '2024-01-10 08:30:00'),
-(3, 'C4 Original Pre-Workout', 'Pre-entreno con cafeína y beta-alanina para máximo rendimiento', 'Cellucor', '["c4_original_1.jpg", "c4_original_2.jpg", "c4_original_3.jpg"]', 65000, 15, 'Frutas del Bosque', '2025-09-15', 'Cafeína, beta-alanina, creatina nitrato, arginina', '2024-01-11 09:00:00', '2024-01-11 09:00:00'),
-(4, 'L-Carnitina 3000', 'Quemador de grasa natural que ayuda en el metabolismo', 'Biotech USA', '["carnitina_1.jpg"]', 52000, 30, 'Limón', '2025-11-20', 'L-Carnitina, agua purificada, saborizante natural de limón', '2024-01-12 10:15:00', '2024-01-12 10:15:00'),
-(5, 'Creatina Monohidrato', 'Creatina pura para aumento de fuerza y potencia', 'MuscleTech', '["creatina_mono_1.jpg"]', 38000, 40, 'Sin sabor', '2026-03-10', '100% Creatina monohidrato micronizada', '2024-01-12 11:00:00', '2024-01-12 11:00:00'),
-(6, 'BCAA 2:1:1', 'Aminoácidos ramificados para recuperación muscular', 'Scivation', '["bcaa_1.jpg", "bcaa_2.jpg"]', 58000, 20, 'Sandía', '2025-08-25', 'L-Leucina, L-Isoleucina, L-Valina, saborizantes naturales', '2024-01-13 12:30:00', '2024-01-13 12:30:00'),
-(7, 'Omega 3 Fish Oil', 'Ácidos grasos esenciales para salud cardiovascular', 'Nordic Naturals', '["omega3_1.jpg"]', 42000, 35, 'Sin sabor', '2025-10-12', 'Aceite de pescado, EPA, DHA, vitamina E', '2024-01-14 13:45:00', '2024-01-14 13:45:00'),
-(8, 'Glutamina Powder', 'L-Glutamina para recuperación y sistema inmune', 'Dymatize', '["glutamina_1.jpg"]', 48000, 28, 'Sin sabor', '2025-07-18', '100% L-Glutamina en polvo', '2024-01-15 14:20:00', '2024-01-15 14:20:00');
+INSERT INTO supplements (id, name, description, laboratory, price, stock, flavour, expiration_date, ingredients, created_at, updated_at) VALUES
+(1, 'Whey Protein Gold Standard', 'Proteína de suero de alta calidad con aminoácidos esenciales', 'Optimum Nutrition', 89900, 25, 'Chocolate', '2025-12-31', 'Aislado de proteína de suero, saborizantes naturales, stevia', '2024-01-10 08:00:00', '2024-01-10 08:00:00'),
+(2, 'Multivitamínico Complete', 'Complejo vitamínico completo con 26 nutrientes esenciales', 'Nature Made', 45000, 50, 'Sin sabor', '2026-06-30', 'Vitamina A, C, D, E, complejo B, zinc, magnesio, hierro', '2024-01-10 08:30:00', '2024-01-10 08:30:00'),
+(3, 'C4 Original Pre-Workout', 'Pre-entreno con cafeína y beta-alanina para máximo rendimiento', 'Cellucor', 65000, 15, 'Frutas del Bosque', '2025-09-15', 'Cafeína, beta-alanina, creatina nitrato, arginina', '2024-01-11 09:00:00', '2024-01-11 09:00:00'),
+(4, 'L-Carnitina 3000', 'Quemador de grasa natural que ayuda en el metabolismo', 'Biotech USA', 52000, 30, 'Limón', '2025-11-20', 'L-Carnitina, agua purificada, saborizante natural de limón', '2024-01-12 10:15:00', '2024-01-12 10:15:00'),
+(5, 'Creatina Monohidrato', 'Creatina pura para aumento de fuerza y potencia', 'MuscleTech', 38000, 40, 'Sin sabor', '2026-03-10', '100% Creatina monohidrato micronizada', '2024-01-12 11:00:00', '2024-01-12 11:00:00'),
+(6, 'BCAA 2:1:1', 'Aminoácidos ramificados para recuperación muscular', 'Scivation', 58000, 20, 'Sandía', '2025-08-25', 'L-Leucina, L-Isoleucina, L-Valina, saborizantes naturales', '2024-01-13 12:30:00', '2024-01-13 12:30:00'),
+(7, 'Omega 3 Fish Oil', 'Ácidos grasos esenciales para salud cardiovascular', 'Nordic Naturals', 42000, 35, 'Sin sabor', '2025-10-12', 'Aceite de pescado, EPA, DHA, vitamina E', '2024-01-14 13:45:00', '2024-01-14 13:45:00'),
+(8, 'Glutamina Powder', 'L-Glutamina para recuperación y sistema inmune', 'Dymatize', 48000, 28, 'Sin sabor', '2025-07-18', '100% L-Glutamina en polvo', '2024-01-15 14:20:00', '2024-01-15 14:20:00');
 
 -- 4. RELACIÓN CATEGORÍAS-SUPLEMENTOS
 INSERT INTO category_supplement (id, category_id, supplement_id, created_at, updated_at) VALUES
